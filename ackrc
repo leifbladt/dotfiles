@@ -1,0 +1,7 @@
+--type-add=js=.coffee,.eco
+--type-add=ruby=.feature
+--type-add=css=.scss
+
+--ignore-dir=.rsync_cache
+--ignore-dir=coverage
+--ignore-dir=tmp
