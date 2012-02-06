@@ -7,10 +7,11 @@ filetype plugin indent on
 set nocompatible " disable vi compatibility
 set modelines=0 " security see http://www.techrepublic.com/blog/security/turn-off-modeline-support-in-vim/4476
 set guioptions-=T " go away toolbar
-colorscheme molokai
+colorscheme vividchalk
 set history=500 " i like history
 set laststatus=2 " statusline ftw
 let mapleader = ',' " leader key
+set nowrap
 
 " Tabs -----------------
 set expandtab
@@ -52,5 +53,5 @@ endif
 
 
 " CtrlP
-let g:ctrlp_custom_ignore = { 'dir': '\.rsync_cache' }
+let g:ctrlp_custom_ignore = { 'dir': '\.rsync_cache$\|coverage$' }
 
