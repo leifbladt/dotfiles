@@ -1,0 +1,10 @@
+[alias]
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	yes = "log --since='yesterday' --pretty=oneline"
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[user]
+	name = Leif Bladt
+	email = leif.bladt@gmx.de

@@ -5,7 +5,8 @@ task :install => ['vim:update_submodules'] do
   symlinks = [
     {:source => 'ack/ackrc', :target => '.ackrc'},
     {:source => 'vim', :target => '.vim'},
-    {:source => 'vim/vimrc', :target => '.vimrc'}
+    {:source => 'vim/vimrc', :target => '.vimrc'},
+    {:source => 'git/gitconfig', :target => '.gitconfig'}
   ]
 
   symlinks.each do |symlink|
