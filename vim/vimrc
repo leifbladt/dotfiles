@@ -34,9 +34,6 @@ set wildmode=list:longest " terminal like tab completion
 " Scrolling
 set scrolloff=3
 
-" Other stuff from different sources
-set cpoptions+=$ " indicate end of change command with $ sign
-
 " Invisibles
 " set list
 " nmap <leader>l :set list!<CR> " toogle set list
