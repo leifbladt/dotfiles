@@ -33,5 +33,9 @@ plugins=(git rails3)
 
 source $ZSH/oh-my-zsh.sh
 
+export PATH=$PATH:~/bin/
+
+export EDITOR=/usr/bin/vim
+
 # Load RVM
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
