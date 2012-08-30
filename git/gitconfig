@@ -5,6 +5,9 @@
 	br = branch
 	ci = commit
 	st = status
+	ctags = !.git/hooks/ctags
 [user]
 	name = Leif Bladt
 	email = leif.bladt@gmx.de
+[init]
+	templatedir = ~/.git_template
