@@ -33,6 +33,4 @@ plugins=(git bundler rails3)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH=/usr/local/bin:$PATH:~/bin:/usr/local/sbin
-
 export EDITOR=/usr/bin/vim
