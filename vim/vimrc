@@ -25,6 +25,7 @@ set laststatus=2 " statusline ftw
 let mapleader = ',' " leader key
 set nowrap
 set number
+set vb t_vb=
 
 " Tabs -----------------
 set expandtab
