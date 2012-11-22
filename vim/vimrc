@@ -69,4 +69,7 @@ let g:ctrlp_custom_ignore = { 'dir': '\.rsync_cache$\|coverage$' }
 nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
 autocmd BufWritePre *.rb,*.js,*.coffee :call <SID>StripTrailingWhitespaces()
 
-:nmap <leader>r :%s/, :focus//g<CR>
+augroup ft_ruby
+  au!
+  au Filetype ruby :nmap <leader>r :%s/, :focus//g<CR>
+augroup END
