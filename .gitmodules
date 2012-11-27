@@ -25,3 +25,6 @@
 [submodule "vim/bundle/vim-abolish"]
 	path = vim/bundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
+[submodule "vim/bundle/vim-rspec-focus"]
+	path = vim/bundle/vim-rspec-focus
+	url = https://github.com/leifbladt/vim-rspec-focus.git
