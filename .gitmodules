@@ -28,3 +28,6 @@
 [submodule "vim/bundle/vim-rspec-focus"]
 	path = vim/bundle/vim-rspec-focus
 	url = https://github.com/leifbladt/vim-rspec-focus.git
+[submodule "vim/bundle/tabular"]
+	path = vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
