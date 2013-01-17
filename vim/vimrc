@@ -70,3 +70,7 @@ let g:ctrlp_custom_ignore = { 'dir': '\.rsync_cache$\|coverage$' }
 
 nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
 autocmd BufWritePre *.rb,*.js,*.coffee :call <SID>StripTrailingWhitespaces()
+
+" vim-rspec-focus
+:nnoremap <leader>t :AddFocusTag<CR>
+:nnoremap <leader>r :RemoveAllFocusTags<CR>
