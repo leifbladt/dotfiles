@@ -27,6 +27,7 @@ let mapleader = ',' " leader key
 set nowrap
 set number
 set vb t_vb=
+set hlsearch
 
 " Tabs -----------------
 set expandtab
