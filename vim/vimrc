@@ -74,3 +74,5 @@ autocmd BufWritePre *.rb,*.js,*.coffee :call <SID>StripTrailingWhitespaces()
 " vim-rspec-focus
 :nnoremap <leader>t :AddFocusTag<CR>
 :nnoremap <leader>r :RemoveAllFocusTags<CR>
+
+map  <Leader>n :sp project-notes.txt<cr>
