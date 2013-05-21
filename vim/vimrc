@@ -28,6 +28,7 @@ set nowrap
 set number
 set vb t_vb=
 set hlsearch
+set autoread
 
 " Tabs -----------------
 set expandtab
