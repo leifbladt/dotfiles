@@ -7,3 +7,4 @@
 --ignore-dir=coverage
 --ignore-dir=tmp
 --ignore-dir=.idea
+--ignore-dir=log
