@@ -7,7 +7,9 @@ task :install => ['vim:update_submodules'] do
     {:source => 'vim', :target => '.vim'},
     {:source => 'vim/vimrc', :target => '.vimrc'},
     {:source => 'git/gitconfig', :target => '.gitconfig'},
-    {:source => 'git_template', :target => '.git_template'}
+    {:source => 'git_template', :target => '.git_template'},
+    {:source => 'zsh/zshenv', :target => '.zshenv'},
+    {:source => 'zsh/zshrc', :target => '.zshrc'}
   ]
 
   symlinks.each do |symlink|
