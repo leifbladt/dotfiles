@@ -10,6 +10,16 @@ function! <SID>StripTrailingWhitespaces()
     call cursor(l, c)
 endfunction
 
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'tpope/vim-dispatch'
+Bundle 'thoughtbot/vim-rspec'
+
+let g:rspec_command = "Dispatch rspec {spec}"
+
 " append all bundles
 call pathogen#infect()
 syntax on
@@ -75,5 +85,11 @@ autocmd BufWritePre *.rb,*.js,*.coffee :call <SID>StripTrailingWhitespaces()
 " vim-rspec-focus
 :nnoremap <leader>t :AddFocusTag<CR>
 :nnoremap <leader>r :RemoveAllFocusTags<CR>
+
+" vim-rspec
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
 
 map  <Leader>n :sp project-notes.txt<cr>
