@@ -17,6 +17,17 @@ Bundle 'gmarik/vundle'
 
 Bundle 'tpope/vim-dispatch'
 Bundle 'thoughtbot/vim-rspec'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-rails'
+Bundle 'kien/ctrlp.vim'
+Bundle 'tomasr/molokai'
+Bundle 'mileszs/ack.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-abolish'
+Bundle 'unifieddialog/vim-rspec-focus'
+Bundle 'godlygeek/tabular'
 
 let g:rspec_command = "Dispatch rspec {spec}"
 
