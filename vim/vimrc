@@ -28,6 +28,7 @@ Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-abolish'
 Bundle 'unifieddialog/vim-rspec-focus'
 Bundle 'godlygeek/tabular'
+Bundle 'tpope/vim-surround'
 
 let g:rspec_command = "Dispatch rspec {spec}"
 
