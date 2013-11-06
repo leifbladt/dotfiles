@@ -1,7 +1,7 @@
 require 'rake'
 
 desc 'Install dotfiles'
-task :install => ['vim:update_submodules'] do
+task :install do
   symlinks = [
     {:source => 'ack/ackrc', :target => '.ackrc'},
     {:source => 'vim', :target => '.vim'},
@@ -26,14 +26,6 @@ end
 
 desc 'Uninstall dotfiles'
 task :uninstall do
-end
-
-namespace :vim do
-  desc 'Update submodules'
-  task :update_submodules do
-    `git submodule init`
-    `git submodule update`
-  end
 end
 
 task :default => :install
